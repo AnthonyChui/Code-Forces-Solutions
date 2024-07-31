@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 
-int getNumStones(int n, int m, int a){
+long long getNumStones(long long n, long long m, long long a){
     long long numStones;
-    int x = 0;
-    int y = 0;
+    long long x = 0;
+    long long y = 0;
     x = m/a;
     if(m%a!=0){
     x++;
@@ -18,7 +18,7 @@ int getNumStones(int n, int m, int a){
 }
 
 int main(){
-    int n,m,a;
+    long long n,m,a;
     cin>>n>>m>>a;
     cout<<getNumStones(n,m,a)<<endl;
     return 0;
