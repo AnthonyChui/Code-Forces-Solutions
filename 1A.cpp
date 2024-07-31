@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-long long getNumStones(long long n, long long m, long long a){
+long long getNumStones(int n, int m, int a){
     long long numStones;
     long long x = 0;
     long long y = 0;
